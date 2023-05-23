@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+          background-image: url(https://cdn.myportfolio.com/54edfd4d5ca547f9f270b64acc5645bd/f6988015a8b51e8f358994c2_rw_1200.png?h=5932b0fea1280fb91ec7b500d5a22246);
+          background-repeat: no-repeat;
+          background-size: cover; 
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion Mar Del Plata Programa 2023</title> 
+</head>
+<body>
+    <h1>Inscripcion Mar Del Plata Programa 2023</h1> 
+    <h4>Por favor complete el siguiente formulario:</h4> 
+    <!-- formulario-->
+    <form>
+        <!-- ETIQUETAS INPUT -->
+        <label for="name">Nombre</label>
+        <input id="name" type="text" name="Nombre" placeholder="Ingrese su Nombre" required maxlength="20">
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input id="Apellido" type="text" name="Apellido" placeholder="Ingrese su Apellido" required maxlength="15">
+        <br>
+        <label for="Email">Email</label>
+        <input id="Email" type="email" name="email" placeholder="Ingrese su Email" required> 
+        <br>
+        <label for="telefono">Telefono</label>
+        <input id="telefono" type="tel" name="Telefono" placeholder="Ingrese su numero">
+        <br>
+        <label for="date">Fecha de nacimiento</label>
+        <input id="date" type="date" min="1900-04-31" max="2005-05-31" required>
+         <br>
+        <label>Foto del dni de ambos lados</label><br>
+        <input type="file" accept=".jpg, .pdf" multiple required> 
+        <br>
+        <label>Actualmente trabaja?</label> 
+        <br>
+        <input type="radio" value="1" name="seleccione"><label>Si</label>
+        <input type="radio" value="2" name="seleccione"><label>No</label>
+        <br>
+        <label>¿Está cursando o cursó alguna materia en la UTNMDP?</label> 
+        <br>
+        <input type="radio" value="1" name="seleccione"><label>Si</label>
+        <input type="text" name="Carrera" placeholder="Ingrese Carrera"><br>
+        <input type="radio" value="2" name="seleccione"><label>No</label>
+        <br>
+        <label>¿Por qué le gustaría inscribirse en esta carrera?</label><br>
+        <!-- textarea -->
+        <textarea name="motivo" placeholder="Máximo 140 caracteres" maxlength="140"></textarea>
+        <br>
+        <input type="submit" value="Enviar"> 
+    </form>
+</body>
+</html>
